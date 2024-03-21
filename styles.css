@@ -132,3 +132,38 @@ footer {
     border-top: 1px solid #fff;
     padding-top: 10px;
 }
+
+.image-text-blocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    flex-direction: column;
+}
+
+.image-text-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.image-text-block img{
+    max-width: 300px;
+}
+
+.text-block{
+    flex: 1;
+    padding: 0 20px;
+}
+
+.text-block h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-block p {
+    font-size: 16px;
+    line-height: 1.6;
+}
